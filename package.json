@@ -1,0 +1,21 @@
+{
+  "name": "jokesbackend",
+  "version": "1.0.0",
+  "description": "backend to provide jokes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "init": "node services/dbInit",
+    "dev": "nodemon index.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "borjamazo@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

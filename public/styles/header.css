@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: var(--background-color);
+  color: var(--text-white);
+}
+
+.header input {
+  margin-left: 16px;
+  cursor: pointer;
+}
