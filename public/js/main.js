@@ -64,8 +64,8 @@ const getJoke = () => {
       loader.style.display = "none";
       const jokeSelection = document.getElementsByClassName("title")[0];
       jokeSelection.innerHTML =
-        data.data.joke[0].setup[0].toUpperCase() +
-        data.data.joke[0].setup.slice(1).toLowerCase();
+        data.data.joke[0].type[0].toUpperCase() +
+        data.data.joke[0].type.slice(1).toLowerCase();
       self.jokeOptions.jokesStorage.push(data.data.joke[0].id);
       self.jokeOptions.joke = data.data.joke[0];
       displayJoke(data.data.joke[0]);

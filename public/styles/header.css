@@ -3,7 +3,7 @@
   position: absolute;
   top: 0;
   height: 50px;
-  width: 100%;
+  width: 100vw;
   align-items: center;
   justify-content: center;
   background: var(--background-color);
